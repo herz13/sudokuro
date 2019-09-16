@@ -1,0 +1,31 @@
+body {
+    background-color: #000;
+}
+
+#content {
+    border: 1px solid #fff;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.cell {
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 77.777px;
+    height: 77.777px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+}
+
+.lighter {
+    background-color: pink;
+}
+
+.darker {
+    background-color: salmon;
+}
